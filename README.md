@@ -8,10 +8,10 @@
 
 ### Installation
 Please run the following command in your command line
-``git clone https://github.com/utkarshdubey2/Python-Physics.git``
+```git clone https://github.com/utkarshdubey2/Python-Physics.git```
 
 After that run the following command
-``cd Python-Physics && python3 main.py``
+```cd Python-Physics && python3 main.py```
 
 
 ### Motive
