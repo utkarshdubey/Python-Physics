@@ -1,29 +1,29 @@
 def DistanceFinderOne(u, a, t):
     distance = float(u * t + 1/2 * a * pow(t, 2))
-    print("The distance is " + str(distance) + " metres")
+    return str(distance)
 
 def DistanceFinderTwo(u, v, a):
     time = float(v / (u + a))
     distance = float(u * time + 1/2 * a * pow(time, 2))
-    print("The distance is " + str(distance) + " metres")
+    return str(distance)
 
 def FinalVelocityFinderOne(u, a, t):
     final_velocity = float(u + a * t)
-    print("The final velcoity is " + str(final_velocity) + " m/s")
+    return str(final_velocity)
 
 def FinalVelocityFinderTwo(u, a, s):
     x = 2 * a * s
     final_velocity = float(pow(x, 1/2) + u)
-    print("The final velcoity is " + str(final_velocity) + " m/s")
+    return str(final_velocity)
 
 def TimeFinderOne(u, v, a):
     time = float(v / (u + a))
-    print("The time is " + str(time) + " seconds")
+    return str(time)
 
 def AccelarationFinderOne(u, v, t):
     accelaration = float((v - u) / t)
-    print("The accelaration is " + str(accelaration) + " m/s^2")
+    return str(accelaration)
 
 def UniformVelocityFinderOne(v, a, t):
     uniform_velocity = float(v + a * t)
-    print("The uniform velocity is " + str(uniform_velocity) + " m/s")
+    return str(uniform_velocity)
