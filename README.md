@@ -1,5 +1,19 @@
 # Python Physics
 
+### Requirements
+
+- Python version 3.4 or above
+- Pip version 9.0 or above
+- A cup of coffee
+
+### Installation
+Please run the following command in your command line
+``git clone https://github.com/utkarshdubey2/Python-Physics.git``
+
+After that run the following command
+``cd Python-Physics && python3 main.py``
+
+
 ### Motive
 
 The main motive of this project is to **create a program,
